@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+    height: 300px;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    background: url('image/banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.size {
+    font-size: 50px;
+}
+
+.error {
+    width: 30%;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.alert {
+    padding: 10px;
+}
+
+span {
+    padding-left: 5px;
+}
+
+hr {
+    border: 3px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 200px;
+    }
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>IC Movies</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav-bar></nav-bar>
+    </header>
+    <div class="container-fluid banner">
+        <div class="container text-center">
+            <search-bar></search-bar>
+        </div>
+
+    </div>
+    <main>
+        <div class="container search">
+            <div class="search-title"></div>
+            <div class="row movie-list">
+                <div class="merge">
+                    <div id="nowPlaying"></div>
+                    <h2 class="mt-5 font-weight-bold">Now Playing</h2>
+                    <hr>
+                    <div class="row now-playing-list"></div>
+
+                    <div id="upcoming"></div>
+                    <h2 class="mt-5 font-weight-bold">upcoming</h2>
+                    <hr>
+                    <div class="row upcoming-list"></div>
+
+                    <div id="popular"></div>
+                    <h2 class="mt-5 font-weight-bold">popular</h2>
+                    <hr>
+                    <div class="row popular-list"></div>
+
+                    <div id="topRated"></div>
+                    <h2 class="mt-5 font-weight-bold">Top Rated</h2>
+                    <hr>
+                    <div class="row top-rated-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center text-light mt-3">&copy; 2022 Ibnu Choldun</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
